@@ -1,0 +1,77 @@
+/* 
+    Document   : simple google Contact map
+    Author     : Praveen
+    Description:
+    Purpose of the stylesheet follows.
+*/
+
+
+
+.sgcmwrap > fieldset{
+       border: 1px solid  #003f5d;
+       padding:5px;
+ }
+ #sgcmform > label
+ {
+	 padding: 10px;
+	 font-size: 14px;
+	 display: block;
+	 
+ }
+ #sgcmform{
+	 position: relative;
+	 float: left;
+	 width: 50%;
+	background-color: #ffffff;
+	 padding: 20px;
+	
+ }
+ #instruction
+ {
+	 float: left;
+	 background-color: #ffffff;
+	 width:30%;
+	 border:solid 1px #006600;
+ }
+ 
+ #instruction p
+ {
+	 line-height:25px;
+	 padding:5px;
+	 font-family:Verdana;
+	 font-size:14px;
+	 
+ }
+ 
+  #instruction span
+ {
+	 
+	 font-family:Verdana;
+	 font-size:20px;
+	 border: dotted 2px #1C8804;
+	 padding:10px;
+	 background-color:#000000;
+	 color:#FFF;
+	 margin-left:20%;
+	 
+	 
+	 
+ }
+ 
+#sgcmform > input[type='text'],select,textarea
+{
+	padding: 10px;
+	border:solid 1px #CCCCCC;
+	width: 500px;
+}
+
+#error{
+    color: red;
+	font-size: 14px;
+}
+
+#success
+{
+	color:green;
+	font-size: 14px;
+}
